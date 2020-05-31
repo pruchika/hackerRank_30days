@@ -1,0 +1,25 @@
+#!/bin/python3
+
+import math
+import os
+import random
+import re
+import sys
+
+def weird(int):
+#check if n  is odd
+    if n%2!=0:
+        print("Weird")
+        
+#check if n  is even and in the inclusive range of 2 to 5 or greater than 20
+    if n%2==0 and (n>=6 and n<=20):
+        print("Weird")
+
+#check if n  is even and in the inclusive range of 6 to 20
+    if n%2==0 and (n>=2 and n<=5 or n>20):
+        print("Not Weird")
+
+if __name__ == '__main__':
+    n = int(input().strip())
+if (n>=1 and n<=100):
+    weird(n)
